@@ -1,0 +1,32 @@
+{
+  "name": "mst",
+  "version": "1.0.0",
+  "description": "musla soft gateway task",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "nodemon --experimental-modules --es-module-specifier-resolution=node ./src/server.js"
+   },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "handlebars": "^4.7.7",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.13",
+    "mongoose-autopopulate": "^0.10.0",
+    "mongoose-unique-validator": "^2.0.3",
+    "request": "^2.88.0",
+    "http-errors": "~1.6.3",
+    "cookie-parser": "~1.4.4",
+    "morgan": "~1.9.1",
+    "is-ip": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
